@@ -32,7 +32,7 @@ public class TC_01 {
 	    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		System.out.println(driver.getTitle());
 		
-		 
+		 driver.quit();
 		
 		
 		
